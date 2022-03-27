@@ -1,0 +1,27 @@
+{
+  "name": "Celebrate",
+  "version": "1.0.0",
+  "description": "Celebrate is an API for birthday wishes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "Dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodemon",
+    "express",
+    "mongoose",
+    "cors"
+  ],
+  "author": "Ubani Friday",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
