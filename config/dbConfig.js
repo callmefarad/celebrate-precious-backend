@@ -1,5 +1,7 @@
+require( 'dotenv' ).config();
+
 const mongoose = require( 'mongoose' )
-const url = 'mongodb+srv://callmefarad:B577f2Ai8bh6txuT@blog.eenxj.mongodb.net/preciousDB?retryWrites=true&w=majority'
+const url = process.env.DATABASE_URI
 
 mongoose.connect(url)
     .then( () => {

@@ -13,3 +13,4 @@ app.use('/precious', preciousRouter)
 app.listen( port, () => {
     console.log(`Server is listening to port ${port}`);
 } )
+

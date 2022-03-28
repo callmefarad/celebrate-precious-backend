@@ -8,12 +8,8 @@ const bdSchema = mongoose.Schema( {
     wish: {
         type: String,
         required: true
-    },
-    date: {
-        type: Date,
-        default: new Date()
     }
-} )
+}, {timestamps: true} )
 
 const bdModel = mongoose.model( 'wishes', bdSchema );
 
